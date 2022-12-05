@@ -4,7 +4,7 @@ import os
 
 
 
-openai.api_key = "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"
+openai.api_key = "OpenAI API KEY"
 
 
 
