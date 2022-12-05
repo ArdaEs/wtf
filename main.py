@@ -4,11 +4,9 @@ import os
 
 
 
-openai.api_key = "OpenAI API KEY"
-
-
-
 def correctTypo(prompt):
+	
+	openai.api_key = "OpenAI API KEY"
 
 	response = openai.Completion.create(
 	  model="text-davinci-003",
