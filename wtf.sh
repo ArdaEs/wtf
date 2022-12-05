@@ -1,4 +1,4 @@
 
 prev_command=`fc -l -n -2 | head -n 1`
 
-python /mnt/e/Project/openai/main.py $prev_command
+python 'PATH_FOR_SCRIPT'/main.py $prev_command
