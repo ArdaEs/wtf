@@ -5,7 +5,7 @@ import openai
 
 def regex_gpt(prompt):
 
-	openai.api_key = "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"
+	openai.api_key = "OPENAI API KEY"
 
 	response = openai.Completion.create(
 	  model="text-davinci-003",
